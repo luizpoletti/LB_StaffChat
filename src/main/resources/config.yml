@@ -1,0 +1,26 @@
+###########################################
+#                                         #
+#   Discord developer: LuizBebe840#9887   #
+#                                         #
+###########################################
+
+# Permissions:
+#  - lbchatstaff.see   | Ver mensagens
+#  - lbchatstaff.talk  | Falar pelo comando
+#  - lbchatstaff.enter | Entrar
+#  - lbchatstaff.highlight | Destacar mensagem
+
+Highlight-With-Perm: true # Caso true, as mensagens no chat staff serao destacadas
+Remove-On-Exit: false # Caso true, remove o usuario do chat staff ao sair do servidor
+
+Send-Sound: # Som ao enviar mensagem
+  Enable: true
+  Sound: ORB_PICKUP
+
+Prefix: "&4[OP]" # Tag que aparecera para cargos sem prefix
+Format: "&8(&4&lSTAFF&8) &e{group} &f{sender}&7: &c{message}"
+
+Messages:
+  No-Args: "&6&lSTAFF CHAT &8➜ &cUtilize: /sc <message>"
+  Join: "&6&lSTAFF CHAT &8➜ &fVocê &aentrou &fno chat staff."
+  Quit: "&6&lSTAFF CHAT &8➜ &fVocê &csaiu &fdo chat staff."

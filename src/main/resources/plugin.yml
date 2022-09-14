@@ -1,0 +1,7 @@
+name: LB_StaffChat
+version: 1.0
+main: com.luizbebe.staffchat.Main
+authors: [LuizBebe840]
+commands:
+  staffchat:
+    aliases: [sc, cs, chatstaff]
